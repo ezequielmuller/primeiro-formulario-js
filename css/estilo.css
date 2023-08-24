@@ -1,0 +1,131 @@
+body {
+  background-image: url(../img/img.png);
+  font-family: 'REM', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+/* Formulario, input e em geral -----------------------*/
+form {
+  background-color: #444444;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  margin: 50px auto;
+  border: 3px solid#413f3f;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: 'REM', sans-serif;
+}
+
+.titulo {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'REM', sans-serif;
+}
+
+.lb {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'REM', sans-serif;
+  color:rgb(145, 149, 153);
+}
+
+.infos {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid #413f3f;
+  margin-bottom: 20px;
+  background-color: #333333;
+  color: #6a6c70;
+  font-family: 'REM', sans-serif;
+}
+
+.infos:hover {
+  border: 3px solid#72757c;
+}
+
+.erro{
+  color: #ff0000;
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+}
+.certo{
+  color: rgb(9, 255, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+}
+
+#cadastre{
+  color:rgb(145, 149, 153);
+  text-align: center;
+  font-family: 'REM', sans-serif;
+
+}
+
+
+
+/* Botão de enviar o formulario ------------------------- */
+#enviar  {
+  height: 40px;
+  width: 110px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #413f3f;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #8d8a8a;
+  
+ }
+ 
+ #enviar:hover {
+  border: 2px solid #346ec5;
+  color: #fafafa;
+ }
+ 
+/* Botão de limpar o formulario -------------------- */
+#limpar  {
+  height: 40px;
+  width: 110px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #413f3f;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #8d8a8a;
+  
+ }
+ 
+ #limpar:hover {
+  border: 2px solid #c53434;
+  color: #fafafa;
+ }
+ 
+/* Botão de validar o formulario ------------------------- */
+#validar  {
+  height: 40px;
+  width: 110px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #413f3f;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #8d8a8a;
+  
+ }
+ 
+ #validar:hover {
+  border: 2px solid #45c534;
+  color: #fafafa;
+ }
