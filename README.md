@@ -1,4 +1,4 @@
-# Primeiro Formulário em JavaScript
+Primeiro Formulário em JavaScript
 
 Este é meu primeiro formulário usando JavaScript, HTML e CSS.  
 Ele foi desenvolvido enquanto eu cursava o técnico em informática integrado ao ensino médio,  
