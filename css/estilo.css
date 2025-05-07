@@ -43,7 +43,7 @@ form {
   border: solid #413f3f;
   margin-bottom: 20px;
   background-color: #333333;
-  color: #6a6c70;
+  color: #ffffffab;
   font-family: 'REM', sans-serif;
 }
 
@@ -65,7 +65,7 @@ form {
 }
 
 #cadastre{
-  color:rgb(145, 149, 153);
+  color: #ffffffab;
   text-align: center;
   font-family: 'REM', sans-serif;
 
@@ -128,4 +128,13 @@ form {
  #validar:hover {
   border: 2px solid #45c534;
   color: #fafafa;
+ }
+
+ .nav-bar {
+  color: #ffffffab;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: 'REM', sans-serif;
+
  }

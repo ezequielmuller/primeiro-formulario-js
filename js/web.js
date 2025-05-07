@@ -16,7 +16,8 @@ var subCsenha = document.getElementById("campoCsenha");
 
 // Função VALIDAR o form
 function validar(e) {
-    if ((validarNome() === false) || (validarEmail() === false) || (validarCPF() === false) || (validarRG() === false) || (validarTelefone() === false) || (validarData() == false) || (validaSenha() == false) || (confirmarSenha() == false)) {
+    if ((validarNome() === false) || (validarEmail() === false) || (validarCPF() === false) || (validarRG() === false) ||
+        (validarTelefone() === false) || (validarData() == false) || (validaSenha() == false) || (confirmarSenha() == false)) {
         e.preventDefault(); // Cancela a submissão do formulário
     }
 }
